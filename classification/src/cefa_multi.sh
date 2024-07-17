@@ -1,0 +1,2 @@
+# python cefa_baseline_multi_main.py  --data_root '/remote-home/share/mengxichen/CASIA-CeFA/CeFA-Race/CeFA-Race/' --dataset 'cefa' --drop_mode 'average' --backbone 'cefa_full_' --gpu 6 --version 0 --modal 'multi' --network 'student' --p [1,1,1] 
+python cefa_baseline_multi_main.py  --data_root '/remote-home/share/mengxichen/CASIA-CeFA/CeFA-Race/CeFA-Race/' --dataset 'cefa' --drop_mode 'average' --backbone 'cefa_hemis_' --gpu 4 --version 0 --inplace_new 256 --modal 'multi' --network 'student'  --p [0,0,0] 
